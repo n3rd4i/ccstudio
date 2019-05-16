@@ -29,7 +29,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <version>9.0.1</version>
     <packageSourceUrl>https://github.com/n3rd4i/ccstudio.git</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
-    <!--<owners>Andrei</owners>-->
+    <owners>Andrei</owners>
     <!-- ============================== -->
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
@@ -38,15 +38,15 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <authors>Texas Instruments</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>http://processors.wiki.ti.com/index.php/Download_CCS</projectUrl>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/ccstudio.png</iconUrl>-->
+    <iconUrl>https://upload.wikimedia.org/wikipedia/en/f/f7/CCS_icon.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
-    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
+    <licenseUrl>http://software-dl.ti.com/ccs/esd/CCSv9/CCS_9_0_0/exports/Code_Composer_Studio_9.0.0_manifest.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
-    <!--<mailingListUrl></mailingListUrl>-->
-    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <docsUrl>http://software-dl.ti.com/ccs/esd/documents/users_guide/ccs_project-management.html</docsUrl>
+    <mailingListUrl>https://e2e.ti.com/support/development_tools/code_composer_studio/</mailingListUrl>
+    <bugTrackerUrl>https://e2e.ti.com/support/development_tools/code_composer_studio/</bugTrackerUrl>
     <tags>ccstudio codecomposer ccs code composer studio</tags>
     <summary>IDE for TI SDK's</summary>
     <description>Code Composer Studio is TI's free IDE for their SDK's 
@@ -56,7 +56,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
 out of date by more than a day or two, please contact the maintainer(s) and
 let them know the package is no longer updating correctly.
 </description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <releaseNotes>http://software-dl.ti.com/ccs/esd/CCSv9/CCS_9_0_0/exports/CCS_9.0.0_ReleaseNotes.htm</releaseNotes>
     <!-- =============================== -->      
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
